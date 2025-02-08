@@ -1,0 +1,25 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+      "cpus": 2
+    },
+    
+    "portsAttributes": {
+      "3000": {
+        "label": "Application",
+        "onAutoForward": "openPreview"
+      }
+    },
+    "forwardPorts": [
+        3000
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ritwickdey.LiveServer"
+            ]
+        }
+    },
+ 
+  }
+  
